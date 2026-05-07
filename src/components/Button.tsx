@@ -1,9 +1,10 @@
 import { motion } from 'framer-motion';
-import { type ButtonHTMLAttributes, type ReactNode } from 'react';
+import { type ReactNode } from 'react';
 
-type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
+type ButtonProps = Omit<React.ComponentPropsWithoutRef<typeof motion.button>, 'children'> & {
   variant?: 'primary' | 'ghost';
   icon?: ReactNode;
+  children?: ReactNode;
 };
 
 const variantClasses = {
