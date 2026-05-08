@@ -22,8 +22,12 @@ export default function Header({ onNavigate }: HeaderProps) {
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-6 py-4 sm:px-8">
         <a href="#inicio" className="flex items-center gap-2 text-sm font-semibold uppercase tracking-[0.35em] text-white">
-          <img src="/assets/advaita-logo-transparent.png" alt="Advaita Tech" className="h-8 w-auto object-contain" />
-          <span>Advaita Tech</span>
+          <img
+            src="/assets/at-logo.png"
+            alt="Advaita Tech"
+            className="h-10 w-auto object-contain"
+          />
+          Advaita Tech
         </a>
 
         <nav className="hidden items-center gap-8 lg:flex">

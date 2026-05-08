@@ -9,12 +9,9 @@ export default function Footer({ onNavigate }: FooterProps) {
     <footer className="border-t border-white/10 bg-[#050505] px-6 py-14 text-gray-300 sm:px-8">
       <div className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-[1.2fr_0.9fr_0.9fr]">
         <div className="space-y-5">
-          <div className="flex items-center gap-4">
-            <img src="/assets/advaita-logo.png" alt="Advaita Tech" className="h-10 w-auto object-contain" />
-            <div>
-              <p className="text-lg font-semibold text-white">Advaita Tech</p>
-              <p className="text-sm text-gray-400">Soluções de TI seguras, escaláveis e orientadas para valor.</p>
-            </div>
+          <div>
+            <p className="text-lg font-semibold text-white">Advaita Tech</p>
+            <p className="text-sm text-gray-400">Soluções de TI seguras, escaláveis e orientadas para valor.</p>
           </div>
           <p className="max-w-sm text-sm leading-6 text-gray-400">
             Marca oficial da Advaita Tech aplicada em toda a experiência digital, do header à hero e ao rodapé.

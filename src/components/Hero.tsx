@@ -63,10 +63,9 @@ export default function Hero({ onNavigate }: HeroProps) {
             <img
               src="/assets/advaita-logo-transparent.png"
               alt="Advaita Tech"
-              className="relative mx-auto h-64 w-auto object-contain sm:h-72 lg:h-80"
+              className="relative z-10 mx-auto h-64 w-auto object-contain sm:h-72 lg:h-80"
               style={{
-                mixBlendMode: 'screen',
-                filter: 'drop-shadow(0 0 40px rgba(255, 106, 0, 0.5)) drop-shadow(0 0 80px rgba(255, 255, 255, 0.3))'
+                filter: "drop-shadow(0 0 40px rgba(255, 106, 0, 0.45))"
               }}
             />
           </div>
